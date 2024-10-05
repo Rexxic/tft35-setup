@@ -1,6 +1,6 @@
 # TFT Display Setup Script
 
-This script automates the setup process for installing and configuring a TFT display on your Raspberry Pi running Volumio OS.
+This script automates the setup process for installing and configuring a 3.5 inch display on your Raspberry Pi running Volumio OS.
 
 ## Prerequisites
 
