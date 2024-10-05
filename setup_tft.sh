@@ -48,7 +48,7 @@ sudo sed -i '/dtparam=spi=on/d' /boot/userconfig.txt
 
 # Add the correct lines to the configuration file
 echo "dtparam=spi=on" | sudo tee -a /boot/userconfig.txt
-echo "dtoverlay=tft35a:${orientation}" | sudo tee -a /boot/userconfig.txt
+echo "dtoverlay=tft35a:rotate=${orientation}" | sudo tee -a /boot/userconfig.txt
 
 # Modify the X11 configuration for fbturbo
 echo "Modifying fbturbo configuration..."
