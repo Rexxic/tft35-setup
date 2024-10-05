@@ -27,7 +27,7 @@ This script automates the setup process for installing and configuring a 3.5 inc
 3. The script will:
 
 - Clone the necessary repository for the TFT drivers.
-- Ask you for Display Orientation.
+- Ask you for Display Orientation. If you want the bottom edge to be where the pin row is use 270.
 - Copy required files to the appropriate directories.
 - Modify configuration files to enable the TFT display and SPI interface.
 - Update the system and install required packages.
@@ -35,4 +35,5 @@ This script automates the setup process for installing and configuring a 3.5 inc
 
 ## Cave
 
-- Running the Script will make the PI inacessible over SSH. This means once set the display orientation cannot be altered, the display orientation setting of the plugin does not work with this setup.
+- Running the Script will make the PI inacessible over SSH!
+- This means once set the display orientation cannot be altered, the display orientation setting of the plugin does not work with this setup.
